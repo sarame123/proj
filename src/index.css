@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x:hidden;
+}
+
+:root{
+  --main-color:#006F73;
+  --dark-gray:#676767;
+  --font:'Poppins', sans-serif;
+}
+.active{
+  color: var(--main-color) !important;
+  font-weight: bold;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+}
+.footer-item h5 {
+  font-weight: bold;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  right:2%;
+  bottom:2%;
+
+}
+.icons i,.social-icons i {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  font-size: 20px;
+}
+.icons .fas.fa-phone{
+  background-color: var(--main-color);
+
+}
+.icons .fab.fa-whatsapp{
+ background-color:#4ec548;
+}
+footer ul li {
+ font-family: var(--font);
+ size: 24px;
+ line-height: 36px;
+ color: var(--dark-gray);
+}
+
+.social-icons .fa-facebook-f {
+  background-color: #3b5998;
+}
+.social-icons .fa-instagram{
+  background-color: #e4405f;
+}
+.social-icons .fa-whatsapp {
+  background-color: #25d366;
+}
+
+
+@media (max-width: 768px) {
+  .container{
+    padding: 0;
+    margin:20px;
+  }
+
+ 
+}
+
+
+

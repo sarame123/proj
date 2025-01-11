@@ -1,0 +1,32 @@
+.team-img img{
+    width: 100%;
+    display: block;
+    
+}
+.img{
+    padding-bottom:50px;
+}
+.team-img h3,p{
+    font-family: var(--font);
+    font-size: 24px;
+    line-height: 36px;
+    font-weight:500;
+    margin-top:10px;
+}
+.team-img p{
+    color: var(--dark-gray);
+    margin-top: 20px;
+}
+@media screen and (min-width: 0px) and (max-width:1024px) {
+    .team-img h3{
+        font-size:11px;
+        font-weight:300;
+        line-height: 30px;
+        
+    }
+    .team-img p{
+        font-size:18px;
+        font-weight:300;
+    }
+    
+}

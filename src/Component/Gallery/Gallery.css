@@ -1,0 +1,46 @@
+
+
+.gallery {
+    margin-bottom: 30px;
+  }
+  
+  .gallery h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .Galllery-images {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr); 
+    gap: 10px;
+  }
+  
+  .Galllery-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover; 
+  }
+  
+  .Galllery-images .gallery-large {
+    grid-column: 3; 
+    grid-row: 1 / 4; 
+  }
+  
+  .Galllery-images .gallery-large img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+  .choose-us {
+    background-image:url(../images/Frames.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    min-height: 100vh;
+    padding: 20px;
+    background-position: center;
+    width:97%;
+  }
+  
